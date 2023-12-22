@@ -1,7 +1,6 @@
 //Libreria RFID master
 #include <SPI.h>
 #include <MFRC522.h>
-#include <string.h>
 
 //Modulo RFID
 #define SS_PIN 10   //Slave Select Pin 
