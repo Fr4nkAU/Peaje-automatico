@@ -54,7 +54,7 @@ char KEYS[] = {
   '*', '0', '#', 'D'
 };
 
-OnewireKeypad <Print, 16 > KP(Serial, KEYS, 4, 4, A0, 4900,1500 );//
+OnewireKeypad <Print, 16 > KP(Serial, KEYS, 4, 4, A0, 5600,1500 );//
 char Key; //Tecla presionama
 #define num 7 // Cantidad de datos del mondo a recargar
 char Data[num]; // Cadena de teclas plesionadas
