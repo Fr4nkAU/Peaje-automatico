@@ -1,4 +1,4 @@
-//COMPROBRAR CLAVEEE
+//Programa que comprueba la contraseña ingresada en el teclado matricial
 #include <OnewireKeypad.h>
 #include <Password.h>
 
@@ -9,7 +9,7 @@ char KEYS[] = {
   '*', '0', '#', 'D'
 };
 
-OnewireKeypad <Print, 16 > KP(Serial, KEYS, 4, 4, A0, 4900,1500);//
+OnewireKeypad <Print, 16 > KP(Serial, KEYS, 4, 4, A0, 5600,1500);//
 Password password=Password("1234");
 
 
