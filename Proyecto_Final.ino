@@ -210,7 +210,7 @@ void pago()
   byte Balance[16];  
   String(balance_char).getBytes(Balance,16);
   Serial.println(String((char*)Balance));
-  WriteDataToBlock(blockNum_Balance, Balance);//siempre va a estar leyendo datos podemos añadir un flag de que si ya leyo o no los  datos
+  WriteDataToBlock(blockNum_Balance, Balance);
   modo_pago=0;
   pasar = 1;
   password.reset();
