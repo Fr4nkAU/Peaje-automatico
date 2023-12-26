@@ -260,7 +260,7 @@ void ObtieneyVerificaPassword(){
   Serial.print("Balance");
   Serial.println((char*)readBlockData); 
   ReadDataFromBlock(blockNum_Password, readBlockData);
-  password.set((char*)readBlockData);//siempre va a estar leyendo datos podemos añadir un flag de que si ya leyo o no los  datos
+  password.set((char*)readBlockData);
   Serial.print("contraseña");
   Serial.println((char*)readBlockData);
 
